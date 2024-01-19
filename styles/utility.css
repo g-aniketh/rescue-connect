@@ -1,0 +1,193 @@
+.primary-btn {
+  color: white;
+  padding: 0.3rem 0.9rem;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.15s background-color;
+}
+
+.green-btn {
+  background-color: rgb(62, 180, 137);
+}
+.green-btn:hover {
+  background-color: rgb(32, 122, 89);
+}
+
+.black-btn {
+  border: 1px solid rgb(160, 163, 196);
+  background-color: rgb(25, 25, 25);
+}
+.black-btn:hover {
+  background-color: rgb(37, 38, 41);
+}
+
+.gray-btn {
+  border-color: rgb(61, 61, 61);
+}
+
+.vertical-line {
+  display: inline-block;
+  width: 0.5px;
+  height: 1.3rem;
+  background: rgb(61, 61, 61);
+}
+
+.home-btn {
+  padding: 0.7rem 1rem;
+}
+
+/* using container class for every item that needs to be in the center and not exceed a certain width */
+.container {
+  max-width: 85rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(25, 25, 25);
+  border: 1px solid rgb(77, 77, 78);
+  border-radius: 4px;
+}
+
+/* earn.html */
+.card-break-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(77, 77, 78);
+  margin: 0.8rem 0;
+}
+
+/* Romi Chart Styling */
+.romi-chart-img-main {
+  height: 13rem;
+  z-index: 1;
+}
+.romi-chart-circle {
+  position: relative;
+}
+.romi-chart-text {
+  position: absolute;
+  left: 4.1rem;
+  top: 6rem;
+
+  z-index: 2;
+}
+
+/* Romi Tooltip Styling */
+.romi-tooltip-bottom {
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  opacity: 0;
+  padding: 0.7rem;
+  border-radius: 2px;
+  background-color: rgb(11, 11, 16);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: all 0.15s linear;
+}
+.romi-chart-circle:hover .romi-tooltip-bottom {
+  opacity: 1;
+  transform: translate(-1rem, 0);
+}
+.romi-tooltip-bottom::before {
+  content: "";
+}
+
+.romi-tooltip-top {
+  position: absolute;
+  top: 2.5rem;
+  left: 1rem;
+  opacity: 0;
+  padding: 0.7rem;
+  border-radius: 2px;
+  background-color: rgb(11, 11, 16);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: all 0.15s linear;
+}
+.romi-chart-circle:hover .romi-tooltip-top {
+  opacity: 1;
+  transform: translate(-1rem, 0);
+}
+.romi-tooltip-top::before {
+  content: "";
+}
+
+/* ZLP Chart Styling */
+.zlp-chart {
+  display: flex;
+  position: relative;
+  column-gap: 0.2rem;
+  margin: 0 1.7rem;
+}
+.zlp-chart-left {
+  position: relative;
+  width: 5rem;
+  height: 10rem;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
+  border: 0.6rem solid rgb(39, 117, 202);
+  border-right: 0;
+  box-sizing: border-box;
+}
+.zlp-chart-text {
+  position: absolute;
+  top: 4.5rem;
+  left: 2.5rem;
+}
+.zlp-chart-right {
+  position: relative;
+  width: 5rem;
+  height: 10rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+  border: 0.6rem solid rgb(96, 98, 166);
+  border-left: 0;
+  box-sizing: border-box;
+}
+
+/* ZLP Tooltip Styling */
+.chart {
+  appearance: none;
+  cursor: pointer;
+}
+.zlp-tooltip-left {
+  position: absolute;
+  top: 1rem;
+  left: -2rem;
+  opacity: 0;
+  padding: 0.7rem;
+  border-radius: 2px;
+  background-color: rgb(11, 11, 16);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: all 0.15s linear;
+}
+.zlp-chart-left:hover .zlp-tooltip-left {
+  opacity: 1;
+  transform: translate(-1rem, 0);
+}
+.zlp-tooltip-left::before {
+  content: "";
+}
+
+.zlp-tooltip-right {
+  position: absolute;
+  top: 6rem;
+  right: -2rem;
+  opacity: 0;
+  padding: 0.7rem;
+  border-radius: 2px;
+  background-color: rgb(11, 11, 16);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: all 0.15s linear;
+}
+.zlp-chart-right:hover .zlp-tooltip-right {
+  opacity: 1;
+  transform: translate(1rem, 0);
+}

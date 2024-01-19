@@ -1,0 +1,92 @@
+main {
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.earn-head,
+.vest-head {
+  margin-top: 4rem;
+}
+.earn-heading,
+.vest-heading {
+  padding-bottom: 0.7rem;
+}
+.earn-heading p,
+.vest-heading p {
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
+.earn-head > p,
+.vest-head > p {
+  letter-spacing: 0.05rem;
+  color: rgb(183, 183, 189);
+  line-height: 1.4rem;
+}
+.wrapper {
+  padding-top: 1.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.card {
+  background-color: rgb(21, 21, 21);
+}
+.romi-heading,
+.total-rewards-heading,
+.earn-zlp-heading,
+.earn-escrowed-heading,
+.vest-romi-heading,
+.vest-zlp-heading {
+  padding: 1rem;
+  border-bottom: 2px solid rgb(77, 77, 78);
+}
+.romi-content,
+.total-rewards-content,
+.earn-zlp-content,
+.earn-escrowed-content,
+.vest-romi-content,
+.vest-zlp-content {
+  padding: 0.7rem 0;
+  flex: 1;
+}
+.total-rewards-content {
+  padding-bottom: 9.3rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+}
+.details > p:first-child {
+  color: rgb(185, 185, 185);
+}
+.details > button {
+  margin-bottom: 0.2rem;
+}
+
+.wrapper-2 {
+  padding-top: 1rem;
+}
+.zlp-button {
+  justify-content: flex-start;
+  column-gap: 0.7rem;
+}
+
+.vest-section {
+  padding-top: 1.7rem;
+  padding-bottom: 3rem;
+}
+.vest-head {
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .wrapper-1,
+  .wrapper-2,
+  .wrapper-3,
+  .wrapper-4 {
+    grid-template-columns: 1fr;
+  }
+}

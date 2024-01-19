@@ -1,0 +1,72 @@
+footer {
+  border-top: 1px solid rgb(77, 77, 78);
+  background-color: rgb(21, 21, 21);
+  width: 100%;
+  padding-top: 3rem;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo img {
+  height: 6rem;
+}
+.footer-logo span {
+  font-family: "ff-logo", sans-serif, Arial;
+  font-size: 1.7rem;
+}
+
+.social-links {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-links a {
+  margin: 0 2.2rem;
+}
+.social-links .medium-img,
+.social-links .github-img,
+.social-links .telegram-img {
+  height: 2rem;
+}
+.social-links .twitter-img {
+  height: 1.4rem;
+}
+.social-links .discord-img {
+  margin-top: 0.2rem;
+  height: 1.75rem;
+}
+
+.other-links {
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.other-links a {
+  font-size: 0.95rem;
+  letter-spacing: 0.05rem;
+  margin: 0 0.7rem;
+}
+
+@media (max-width: 900px) {
+  .social-links a {
+    margin: 0 1rem;
+  }
+}
+@media (max-width: 580px) {
+  footer {
+    padding-top: 1.7rem;
+  }
+  .social-links a {
+    margin: 0 0.7rem;
+  }
+  .other-links {
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    padding-top: 1.2rem;
+  }
+}

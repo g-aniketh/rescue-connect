@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Decentralized Perpetual Exchange</title>
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/utility.css">
+
+  <link rel="stylesheet" href="./styles/page/dashboard.css">
+
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="sidebar-nav">
+      <div class="sidebar-head">
+        <a href="./index.html">
+          <span class="sidebar-logo-content">
+            <img src="./images/logo.png" alt="Logo">
+            <span></span>
+          </span>
+        </a>
+        <img class="close-menu" src="./images/header/close-menu.svg" alt="Close Sidebar">
+      </div>
+      <ul>
+        <li class="home-link header-link">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="dashboard-link header-link">
+          <a href="/dashboard.html">Dashboard</a>
+        </li>
+        <!-- <li class="nft-link header-link">
+          <a href="#">
+            NFT
+            <ul>
+              <li class="mint-link header-link">Mint</li>
+              <li class="stake-link header-link">Stake NFT</li>
+            </ul>
+          </a>
+        </li> -->
+        <!-- <li class="earn-link header-link">
+          <a href="./earn.html">Earn</a>
+        </li> -->
+        <!-- <li class="buy-link header-link">
+          <a href="#">Buy</a>
+        </li> -->
+        <li class="referrals-link header-link">
+          <a href="#">Referrals</a>
+        </li>
+        <li class="ecosystem-link header-link">
+          <a href="#">Ecosystem</a>
+        </li>
+        <li class="about-link header-link">
+          <a href="#">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-left-section">
+      <img class="nav-toggle-btn" src="images/header/menu-hamburger.svg" alt="Menu Toggle">
+      <a href="/index.html">
+        <span class="header-logo-content">
+          <img src="images/logo.png" alt="Logo">
+          <span></span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="header-nav">
+      <ul>
+        <li class="home-link header-link">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="dashboard-link header-link">
+          <a href="./dashboard.html">Dashboard</a>
+        </li>
+        <!-- <li class="nft-link header-link">
+          <a href="#">NFT</a>
+        </li> -->
+        <!-- <li class="earn-link header-link">
+          <a href="./stats.html">Earn</a>
+        </li> -->
+        <!-- <li class="buy-link header-link">
+          <a href="#">Buy</a>
+        </li> -->
+        <li class="referrals-link header-link">
+          <a href="#">Referrals</a>
+        </li>
+        <li class="ecosystem-link header-link">
+          <a href="#">Ecosystem</a>
+        </li>
+        <li class="about-link header-link">
+          <a href="#">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-right-section">
+      <button class="trade-btn | primary-btn green-btn">
+        Join us
+      </button>
+      <button class="connect-btn-large connect-btn | primary-btn black-btn gray-btn">
+        <img src="images/header/connect-wallet.svg">
+        <span>
+          Connect
+        </span>
+      </button>
+      <button class="connect-btn-small connect-btn | primary-btn black-btn gray-btn">
+        <img src="images/header/connect-wallet.svg">
+        <span>
+          Connect
+        </span>
+      </button>
+      <button class="network-btn | primary-btn black-btn gray-btn">
+        <img class="network-eth-btn" src="images/header/ethereum-header.svg">
+        <span class="vertical-line"></span>
+        <img class="network-more-img" src="images/header/more-dots.svg">
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-section">
+      <div class="stats-head">
+        <div class="stats-heading">
+          <p>Stats</p>
+          <img src="images/dashboard/avalanche.svg">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sapiente!</p>
+        <p>For detailed stats:</p>
+      </div>
+      <div class="stats-wrapper wrapper">
+        <div class="stats-overview card">
+          <p class="overview-heading">Overview</p>
+          <div class="overview-content">
+            <div class="details">
+              <p>lorem</p>
+              <p>34</p>
+            </div>
+            <div class="details">
+              <p>lorem</p>
+              <p>34</p>
+            </div>
+            <div class="details">
+              <p>lorem</p>
+              <p>0</p>
+            </div>
+            <div class="details">
+              <p>lorem</p>
+              <p>0</p>
+            </div>
+            <div class="details">
+              <p>lorem</p>
+              <p>0</p>
+            </div>
+          </div>
+        </div>
+        <div class="total-stats card">
+          <p class="total-stats-heading">Total Stats</p>
+          <div class="total-stats-content">
+            <div class="details">
+              <p>Total lorem</p>
+              <p>0</p>
+            </div>
+            <div class="details">
+              <p>Total lorem</p>
+              <p>0</p>
+            </div>
+            <div class="details">
+              <p>Total</p>
+              <p>641,936</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tokens-section">
+      <div class="tokens-head">
+        <div class="tokens-heading">
+          <p>More Stats</p>
+          <img src="images/dashboard/avalanche.svg">
+        </div>
+        <p>Graphical</p>
+      </div>
+      <div class="token-wrapper wrapper">
+        <div class="tokens-romi card">
+          <div class="romi-content">
+            <div class="romi-content-heading">
+              <img class="romi-img" src="images/dashboard/romi.png" alt="">
+              <div class="romi-heading-names">
+                <div class="romi-headings">
+                  <p class="romi-heading-large">National</p>
+                  <p class="romi-heading-small"></p>
+                </div>
+                <img src="images/dashboard/expand-arrow.svg">
+              </div>
+            </div>
+            <div class="romi-content-details">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>0.00</p>
+              </div>
+              <div class="details">
+                <p>Supply</p>
+                <p>10,000 ROMI</p>
+              </div>
+              <div class="details">
+                <p>Total Staked</p>
+                <p>0</p>
+              </div>
+              <div class="details">
+                <p>Cases Cap</p>
+                <p>10</p>
+              </div>
+            </div>
+          </div>
+          <div class="romi-chart">
+            <div class="romi-chart-circle chart">
+              <img class="romi-chart-img-main" src="images/dashboard/distribution.svg">
+              <span class="romi-chart-text">Distribution</span>
+              <span class="romi-tooltip-bottom">94% in liquidity</span>
+              <span class="romi-tooltip-top">6% not staked</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tokens-zlp card">
+          <div class="zlp-content">
+            <div class="zlp-content-heading">
+              <div class="zlp-content-image">
+                <img class="zlp-img" src="images/dashboard/zlp.png">
+                <img class="zlp-avalanche" src="images/dashboard/avalanche-small.svg">
+              </div>
+              <div class="zlp-heading-names">
+                <div class="zlp-headings">
+                  <p class="zlp-heading-large">State</p>
+                  <p class="zlp-heading-small"></p>
+                </div>
+                <img src="images/dashboard/expand-arrow.svg">
+              </div>
+            </div>
+            <div class="zlp-content-details">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>1.149</p>
+              </div>
+              <div class="details">
+                <p>Supply</p>
+                <p>29 ZLP</p>
+              </div>
+              <div class="details">
+                <p>Total Staked</p>
+                <p>34</p>
+              </div>
+              <div class="details">
+                <p>Cases Cap</p>
+                <p>34</p>
+              </div>
+              <div class="details">
+                <p>Save Percentage</p>
+                <p>49.50%</p>
+              </div>
+            </div>
+          </div>
+          <div class="zlp-chart">
+            <div class="zlp-chart-left chart">
+              <span class="zlp-tooltip-left">49.5% USDC</span>
+            </div>
+            <div class="zlp-chart-text">ZLP Pool</div>
+            <div class="zlp-chart-right chart">
+              <span class="zlp-tooltip-right">50.49% ETH</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="composition-section">
+      <div class="composition card">
+        <p class="composition-heading">Overview</p>
+        <div class="composition-content">
+          <table class="composition-table">
+            <tr class="table-head">
+              <td>STATE</td>
+              <td>DEATHS</td>
+              <td>LOREM</td>
+              <td>SAVE RATE</td>
+              <td>UTILIZATION</td>
+            </tr>
+
+            <tr class="table-row-1 table-row">
+              <td>
+                <div class="row-child-1">
+                  <img src="images/dashboard/ETH.svg" alt="">
+                  <div class="row-details">
+                    <div class="row-heading">
+                      <span>Kerala</span>
+                      <span></span>
+                    </div>
+                    <img src="images/dashboard/expand-arrow.svg" alt="">
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-2">
+                  <span>1,799.2</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-3">
+                  <span>19</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-4">
+                  <span>50.49% / 25.00%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-5">
+                  <span>0.00%</span>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="table-row-2 table-row">
+              <td>
+                <div class="row-child-1">
+                  <img src="images/dashboard/WBTC.svg" alt="">
+                  <div class="row-details">
+                    <div class="row-heading">
+                      <span>Mumbai</span>
+                      <span></span>
+                    </div>
+                    <img src="images/dashboard/expand-arrow.svg" alt="">
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-2">
+                  <span>34,342.54</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-3">
+                  <span>0</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-4">
+                  <span>0.00% / 25.00%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-5">
+                  <span>0.00%</span>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="table-row-3 table-row">
+              <td>
+                <div class="row-child-1">
+                  <img src="images/dashboard/APE.svg" alt="">
+                  <div class="row-details">
+                    <div class="row-heading">
+                      <span>Kolkata</span>
+                      <span></span>
+                    </div>
+                    <img src="images/dashboard/expand-arrow.svg" alt="">
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-2">
+                  <span>1.34</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-3">
+                  <span>0</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-4">
+                  <span>0.00% / 25.00%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-5">
+                  <span>0.00%</span>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="table-row-4 table-row">
+              <td>
+                <div class="row-child-1">
+                  <img src="images/dashboard/USDC.svg" alt="">
+                  <div class="row-details">
+                    <div class="row-heading">
+                      <span>Hyderabad</span>
+                      <span></span>
+                    </div>
+                    <img src="images/dashboard/expand-arrow.svg" alt="">
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-2">
+                  <span>1.00</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-3">
+                  <span>14</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-4">
+                  <span>49.50% / 25.00%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row-child-5">
+                  <span>0.00%</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="composition-section-small">
+      <div class="composition-small-wrapper-1 wrapper">
+        <div class="composition-eth card">
+          <div class="eth-heading small-composition-heading">
+            <img src="images/dashboard/ETH.svg" alt="">
+            <div class="eth-headings">
+              <p>ETH</p>
+              <img src="images/dashboard/expand-arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="eth-content">
+            <div class="details">
+              <p>Save Rate</p>
+              <p>1,804.7</p>
+            </div>
+            <div class="details">
+              <p>Pool</p>
+              <p>19</p>
+            </div>
+            <div class="details">
+              <p>Weight</p>
+              <p>50.49% / 25.00%</p>
+            </div>
+            <div class="details">
+              <p>Utilization</p>
+              <p>0.00%</p>
+            </div>
+          </div>
+        </div>
+        <div class="composition-wbtc card">
+          <div class="wbtc-heading small-composition-heading">
+            <img src="images/dashboard/WBTC.svg" alt="">
+            <div class="wbtc-headings">
+              <p>WBTC</p>
+              <img src="images/dashboard/expand-arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="eth-content">
+            <div class="details">
+              <p>Save Rate</p>
+              <p>34,342.54</p>
+            </div>
+            <div class="details">
+              <p>Pool</p>
+              <p>0</p>
+            </div>
+            <div class="details">
+              <p>Weight</p>
+              <p>0.00% / 25.00%</p>
+            </div>
+            <div class="details">
+              <p>Utilization</p>
+              <p>0.00%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="composition-small-wrapper-2 wrapper">
+        <div class="composition-ape card">
+          <div class="ape-heading small-composition-heading">
+            <img src="images/dashboard/APE.svg" alt="">
+            <div class="ape-headings">
+              <p>APE</p>
+              <img src="images/dashboard/expand-arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="ape-content">
+            <div class="details">
+              <p>Save Rate</p>
+              <p>1.34</p>
+            </div>
+            <div class="details">
+              <p>Pool</p>
+              <p>19</p>
+            </div>
+            <div class="details">
+              <p>Weight</p>
+              <p>0.00% / 25.00%</p>
+            </div>
+            <div class="details">
+              <p>Utilization</p>
+              <p>0.00%</p>
+            </div>
+          </div>
+        </div>
+        <div class="composition-usdc card">
+          <div class="usdc-heading small-composition-heading">
+            <img src="images/dashboard/USDC.svg" alt="">
+            <div class="usdc-headings">
+              <p>USDC</p>
+              <img src="images/dashboard/expand-arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="usdc-content">
+            <div class="details">
+              <p>Save Rate</p>
+              <p>1.00</p>
+            </div>
+            <div class="details">
+              <p>Pool</p>
+              <p>14</p>
+            </div>
+            <div class="details">
+              <p>Weight</p>
+              <p>49.50% / 25.00%</p>
+            </div>
+            <div class="details">
+              <p>Utilization</p>
+              <p>0.00%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="Logo">
+      <span></span>
+    </div>
+    <div class="social-links">
+      <a href="#">
+        rescueconnect@gmail.com
+      </a>
+      <a href="#">
+        <img class="twitter-img" src="images/social-icons/Twitter.svg">
+      </a>
+      <a href="#">
+        <img class="medium-img" src="images/social-icons/Medium.svg">
+      </a>
+      <a href="#">
+        <img class="github-img" src="images/social-icons/Github.svg">
+      </a>
+      <a href="#">
+        <img class="telegram-img" src="images/social-icons/Telegram.svg">
+      </a>
+      <a href="#">
+        <img class="discord-img" src="images/social-icons/Discord.svg">
+      </a>
+    </div>
+    <div class="other-links">
+      <a href="">Terms and Conditions</a>
+      <a href="">Referral Terms</a>
+      <a href="">Media Kit</a>
+    </div>
+  </footer>
+</body>
+
+</html>
