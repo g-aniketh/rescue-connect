@@ -1,0 +1,18 @@
+.about-section .container-1 h3 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-size: 1.3rem;
+  word-spacing: 0.8px;
+  letter-spacing: 0.7px;
+  max-width: 110ch;
+}

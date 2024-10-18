@@ -5,7 +5,7 @@
   border: 0;
   border-radius: 3px;
   cursor: pointer;
-  transition: 0.15s background-color;
+  transition: 0.15s all;
 }
 
 .green-btn {
@@ -21,6 +21,13 @@
 }
 .black-btn:hover {
   background-color: rgb(37, 38, 41);
+}
+
+.red-btn {
+  background-color: rgb(255, 32, 32);
+}
+.red-btn:hover {
+  background-color: rgb(255, 84, 84);
 }
 
 .gray-btn {

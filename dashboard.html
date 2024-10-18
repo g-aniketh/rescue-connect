@@ -24,8 +24,7 @@
       <div class="sidebar-head">
         <a href="./index.html">
           <span class="sidebar-logo-content">
-            <img src="./images/logo.png" alt="Logo">
-            <span></span>
+            <span>Rescue Connect</span>
           </span>
         </a>
         <img class="close-menu" src="./images/header/close-menu.svg" alt="Close Sidebar">
@@ -35,43 +34,21 @@
           <a href="./index.html">Home</a>
         </li>
         <li class="dashboard-link header-link">
-          <a href="/dashboard.html">Dashboard</a>
+          <a href="./dashboard.html">Dashboard</a>
         </li>
         <li class="emergency-link header-link">
           <a href="./emergency.html">Emergency</a>
         </li>
-        <!-- <li class="nft-link header-link">
-          <a href="#">
-            NFT
-            <ul>
-              <li class="mint-link header-link">Mint</li>
-              <li class="stake-link header-link">Stake NFT</li>
-            </ul>
-          </a>
-        </li> -->
-        <!-- <li class="earn-link header-link">
-          <a href="./earn.html">Earn</a>
-        </li> -->
-        <!-- <li class="buy-link header-link">
-          <a href="#">Buy</a>
-        </li> -->
-        <li class="referrals-link header-link">
-          <a href="#">Referrals</a>
-        </li>
-        <li class="ecosystem-link header-link">
-          <a href="#">Ecosystem</a>
-        </li>
         <li class="about-link header-link">
-          <a href="#">About</a>
+          <a href="./about.html">About</a>
         </li>
       </ul>
     </nav>
 
     <div class="header-left-section">
-      <img class="nav-toggle-btn" src="images/header/menu-hamburger.svg" alt="Menu Toggle">
-      <a href="/index.html">
+      <img class="nav-toggle-btn" src="./images/header/menu-hamburger.svg" alt="Menu Toggle">
+      <a href="./index.html">
         <span class="header-logo-content">
-          <!-- <img src="./images/logo.png" alt="Logo"> -->
           <span>Rescue Connect</span>
         </span>
       </a>
@@ -85,50 +62,30 @@
         <li class="dashboard-link header-link">
           <a href="./dashboard.html">Dashboard</a>
         </li>
-        <li class="emergency-link header-link">
+        <button class="primary-btn red-btn">
           <a href="./emergency.html">Emergency</a>
-        </li>
-        <!-- <li class="nft-link header-link">
-          <a href="#">NFT</a>
-        </li> -->
-        <!-- <li class="earn-link header-link">
-          <a href="./stats.html">Sats</a>
-        </li> -->
-        <!-- <li class="buy-link header-link">
-          <a href="#">Buy</a>
-        </li> -->
-        <!-- <li class="referrals-link header-link">
-          <a href="#">Referrals</a>
-        </li> -->
-        <li class="ecosystem-link header-link">
-          <a href="#">Ecosystem</a>
-        </li>
+        </button>
         <li class="about-link header-link">
-          <a href="#">About</a>
+          <a href="./about.html">About</a>
         </li>
       </ul>
     </nav>
 
     <div class="header-right-section">
       <button class="trade-btn | primary-btn green-btn">
-        Join us
+        Register
       </button>
       <button class="connect-btn-large connect-btn | primary-btn black-btn gray-btn">
-        <img src="images/header/connect-wallet.svg">
-        <span>
-          Connect
+        <span style="display: flex; gap: 5px;">
+          <span style="font-size: 14px;">Upload</span>
+          <img class="camera-img" src="./images/home/camera.png">
         </span>
       </button>
       <button class="connect-btn-small connect-btn | primary-btn black-btn gray-btn">
-        <img src="images/header/connect-wallet.svg">
-        <span>
-          Connect
+        <span style="display: flex; gap: 5px;">
+          <span style="font-size: 14px;">Upload</span>
+          <img class="camera-img" src="./images/home/camera.png">
         </span>
-      </button>
-      <button class="network-btn | primary-btn black-btn gray-btn">
-        <img class="network-eth-btn" src="images/header/ethereum-header.svg">
-        <span class="vertical-line"></span>
-        <img class="network-more-img" src="images/header/more-dots.svg">
       </button>
     </div>
   </header>
@@ -138,67 +95,295 @@
       <div class="stats-head">
         <div class="stats-heading">
           <p>Stats</p>
-          <img src="images/dashboard/avalanche.svg">
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sapiente!</p>
         <p>For detailed stats:</p>
       </div>
-      <div class="stats-wrapper wrapper">
-        <div class="stats-overview card">
-          <p class="overview-heading">Overview</p>
-          <div class="overview-content">
-            <div class="details">
-              <p>Cases</p>
-              <p>500</p>
+      <section class="composition-section">
+        <div class="composition card">
+          <p class="composition-heading">Overview</p>
+          <div class="composition-content">
+            <table class="composition-table">
+              <tr class="table-head">
+                <td>Overview</td>
+                <td>National Rescue</td>
+                <td>State Rescue</td>
+                <td>Air Ambulance</td>
+                <td>Total</td>
+              </tr>
+
+              <tr class="table-row-1 table-row">
+                <td>
+                  <div class="row-child-1">
+                    <!-- <img src="images/dashboard/ETH.svg" alt=""> -->
+                    <div class="row-details">
+                      <div class="row-heading">
+                        <span>Cases</span>
+                        <span></span>
+                      </div>
+                      <img src="images/dashboard/expand-arrow.svg" alt="">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-2">
+                    <span>500</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-4">
+                    <span>1000</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>200</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>1700</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-row-2 table-row">
+                <td>
+                  <div class="row-child-1">
+                    <!-- <img src="images/dashboard/WBTC.svg" alt=""> -->
+                    <div class="row-details">
+                      <div class="row-heading">
+                        <span>Lives Saved</span>
+                        <span></span>
+                      </div>
+                      <img src="images/dashboard/expand-arrow.svg" alt="">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-2">
+                    <span>450</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-4">
+                    <span>950</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>180</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>1580</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-row-3 table-row">
+                <td>
+                  <div class="row-child-1">
+                    <!-- <img src="images/dashboard/APE.svg" alt=""> -->
+                    <div class="row-details">
+                      <div class="row-heading">
+                        <span>Lives Lost</span>
+                        <span></span>
+                      </div>
+                      <img src="images/dashboard/expand-arrow.svg" alt="">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-2">
+                    <span>50</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-4">
+                    <span>50</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>20</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>120</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-row-4 table-row">
+                <td>
+                  <div class="row-child-1">
+                    <!-- <img src="images/dashboard/USDC.svg" alt=""> -->
+                    <div class="row-details">
+                      <div class="row-heading">
+                        <span>Resources Deployed</span>
+                        <span></span>
+                      </div>
+                      <img src="images/dashboard/expand-arrow.svg" alt="">
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-2">
+                    <span>300</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-4">
+                    <span>700</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>150</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="row-child-5">
+                    <span>1150</span>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="composition-section-small">
+        <div class="composition-small-wrapper-1 wrapper">
+          <div class="composition-eth card">
+            <div class="eth-heading small-composition-heading">
+              <img src="images/dashboard/ETH.svg" alt="">
+              <div class="eth-headings">
+                <p>ETH</p>
+                <img src="images/dashboard/expand-arrow.svg" alt="">
+              </div>
             </div>
-            <div class="details">
-              <p>Lives Saved</p>
-              <p>450</p>
+            <div class="eth-content">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>1,804.7</p>
+              </div>
+              <div class="details">
+                <p>Pool</p>
+                <p>19</p>
+              </div>
+              <div class="details">
+                <p>Weight</p>
+                <p>50.49% / 25.00%</p>
+              </div>
+              <div class="details">
+                <p>Utilization</p>
+                <p>0.00%</p>
+              </div>
             </div>
-            <div class="details">
-              <p>Volunteers</p>
-              <p>50</p>
+          </div>
+          <div class="composition-wbtc card">
+            <div class="wbtc-heading small-composition-heading">
+              <img src="images/dashboard/WBTC.svg" alt="">
+              <div class="wbtc-headings">
+                <p>WBTC</p>
+                <img src="images/dashboard/expand-arrow.svg" alt="">
+              </div>
             </div>
-            <div class="details">
-              <p>Resources Deployed</p>
-              <p>300</p>
+            <div class="eth-content">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>34,342.54</p>
+              </div>
+              <div class="details">
+                <p>Pool</p>
+                <p>0</p>
+              </div>
+              <div class="details">
+                <p>Weight</p>
+                <p>0.00% / 25.00%</p>
+              </div>
+              <div class="details">
+                <p>Utilization</p>
+                <p>0.00%</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="total-stats card">
-          <p class="total-stats-heading">Total Stats</p>
-          <div class="total-stats-content">
-            <div class="details">
-              <p>Total Cases</p>
-              <p>680</p>
+        <div class="composition-small-wrapper-2 wrapper">
+          <div class="composition-ape card">
+            <div class="ape-heading small-composition-heading">
+              <img src="images/dashboard/APE.svg" alt="">
+              <div class="ape-headings">
+                <p>APE</p>
+                <img src="images/dashboard/expand-arrow.svg" alt="">
+              </div>
             </div>
-            <div class="details">
-              <p>Total Lives Saved</p>
-              <p>850</p>
+            <div class="ape-content">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>1.34</p>
+              </div>
+              <div class="details">
+                <p>Pool</p>
+                <p>19</p>
+              </div>
+              <div class="details">
+                <p>Weight</p>
+                <p>0.00% / 25.00%</p>
+              </div>
+              <div class="details">
+                <p>Utilization</p>
+                <p>0.00%</p>
+              </div>
             </div>
-            <div class="details">
-              <p>Total Resources Deployed</p>
-              <p>490</p>
+          </div>
+          <div class="composition-usdc card">
+            <div class="usdc-heading small-composition-heading">
+              <img src="images/dashboard/USDC.svg" alt="">
+              <div class="usdc-headings">
+                <p>USDC</p>
+                <img src="images/dashboard/expand-arrow.svg" alt="">
+              </div>
+            </div>
+            <div class="usdc-content">
+              <div class="details">
+                <p>Save Rate</p>
+                <p>1.00</p>
+              </div>
+              <div class="details">
+                <p>Pool</p>
+                <p>14</p>
+              </div>
+              <div class="details">
+                <p>Weight</p>
+                <p>49.50% / 25.00%</p>
+              </div>
+              <div class="details">
+                <p>Utilization</p>
+                <p>0.00%</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
     </section>
 
     <section class="tokens-section">
       <div class="tokens-head">
         <div class="tokens-heading">
-          <p>More Stats</p>
-          <img src="images/dashboard/avalanche.svg">
+          <p>Graphical Stats</p>
         </div>
-        <p>Graphical</p>
       </div>
       <div class="token-wrapper wrapper">
         <div class="tokens-romi card">
           <div class="romi-content">
             <div class="romi-content-heading">
-              <img class="romi-img" src="images/dashboard/romi.png" alt="">
-              <div class="romi-heading-names">
+              <img class="romi-img" src="./images/india.png">
+              <div class=" romi-heading-names">
                 <div class="romi-headings">
                   <p class="romi-heading-large">National</p>
                   <p class="romi-heading-small"></p>
@@ -212,15 +397,15 @@
                 <p>0.00</p>
               </div>
               <div class="details">
-                <p>Supply</p>
-                <p>10,000 ROMI</p>
+                <p>Food Supply</p>
+                <p>10,000</p>
               </div>
               <div class="details">
-                <p>Total Staked</p>
-                <p>0</p>
+                <p>Total</p>
+                <p>68</p>
               </div>
               <div class="details">
-                <p>Cases Cap</p>
+                <p>Cases</p>
                 <p>10</p>
               </div>
             </div>
@@ -230,7 +415,7 @@
               <img class="romi-chart-img-main" src="images/dashboard/distribution.svg">
               <span class="romi-chart-text">Distribution</span>
               <span class="romi-tooltip-bottom">450 Lives Saved</span>
-              <span class="romi-tooltip-top"></span>
+              <span class="romi-tooltip-top">Faster Contact Response</span>
             </div>
           </div>
         </div>
@@ -239,8 +424,7 @@
           <div class="zlp-content">
             <div class="zlp-content-heading">
               <div class="zlp-content-image">
-                <img class="zlp-img" src="images/dashboard/zlp.png">
-                <img class="zlp-avalanche" src="images/dashboard/avalanche-small.svg">
+                <img class="zlp-img" src="images/telangana.png">
               </div>
               <div class="zlp-heading-names">
                 <div class="zlp-headings">
@@ -253,18 +437,18 @@
             <div class="zlp-content-details">
               <div class="details">
                 <p>Save Rate</p>
-                <p>1.149</p>
+                <p>89</p>
               </div>
               <div class="details">
-                <p>Supply</p>
-                <p>29 ZLP</p>
+                <p>Food Supply</p>
+                <p>29</p>
               </div>
               <div class="details">
-                <p>Total Staked</p>
+                <p>Total</p>
                 <p>34</p>
               </div>
               <div class="details">
-                <p>Cases Cap</p>
+                <p>Cases</p>
                 <p>34</p>
               </div>
             </div>
@@ -273,281 +457,9 @@
             <div class="zlp-chart-left chart">
               <span class="zlp-tooltip-left">290 Lives Saved</span>
             </div>
-            <div class="zlp-chart-text">ZLP Pool</div>
+            <div class="zlp-chart-text">Rescues</div>
             <div class="zlp-chart-right chart">
-              <span class="zlp-tooltip-right"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="composition-section">
-      <div class="composition card">
-        <p class="composition-heading">Overview</p>
-        <div class="composition-content">
-          <table class="composition-table">
-            <tr class="table-head">
-              <td>Overview</td>
-              <td>National Rescue</td>
-              <td>State Rescue</td>
-              <td>Air Ambulance</td>
-              <td>Total</td>
-            </tr>
-
-            <tr class="table-row-1 table-row">
-              <td>
-                <div class="row-child-1">
-                  <!-- <img src="images/dashboard/ETH.svg" alt=""> -->
-                  <div class="row-details">
-                    <div class="row-heading">
-                      <span>Cases</span>
-                      <span></span>
-                    </div>
-                    <img src="images/dashboard/expand-arrow.svg" alt="">
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-2">
-                  <span>500</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-4">
-                  <span>1000</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>200</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>1700</span>
-                </div>
-              </td>
-            </tr>
-
-            <tr class="table-row-2 table-row">
-              <td>
-                <div class="row-child-1">
-                  <!-- <img src="images/dashboard/WBTC.svg" alt=""> -->
-                  <div class="row-details">
-                    <div class="row-heading">
-                      <span>Lives Saved</span>
-                      <span></span>
-                    </div>
-                    <img src="images/dashboard/expand-arrow.svg" alt="">
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-2">
-                  <span>450</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-4">
-                  <span>950</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>180</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>1580</span>
-                </div>
-              </td>
-            </tr>
-
-            <tr class="table-row-3 table-row">
-              <td>
-                <div class="row-child-1">
-                  <!-- <img src="images/dashboard/APE.svg" alt=""> -->
-                  <div class="row-details">
-                    <div class="row-heading">
-                      <span>Lives Lost</span>
-                      <span></span>
-                    </div>
-                    <img src="images/dashboard/expand-arrow.svg" alt="">
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-2">
-                  <span>50</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-4">
-                  <span>50</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>20</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>120</span>
-                </div>
-              </td>
-            </tr>
-
-            <tr class="table-row-4 table-row">
-              <td>
-                <div class="row-child-1">
-                  <!-- <img src="images/dashboard/USDC.svg" alt=""> -->
-                  <div class="row-details">
-                    <div class="row-heading">
-                      <span>Resources Deployed</span>
-                      <span></span>
-                    </div>
-                    <img src="images/dashboard/expand-arrow.svg" alt="">
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-2">
-                  <span>300</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-4">
-                  <span>700</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>150</span>
-                </div>
-              </td>
-              <td>
-                <div class="row-child-5">
-                  <span>1150</span>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="composition-section-small">
-      <div class="composition-small-wrapper-1 wrapper">
-        <div class="composition-eth card">
-          <div class="eth-heading small-composition-heading">
-            <img src="images/dashboard/ETH.svg" alt="">
-            <div class="eth-headings">
-              <p>ETH</p>
-              <img src="images/dashboard/expand-arrow.svg" alt="">
-            </div>
-          </div>
-          <div class="eth-content">
-            <div class="details">
-              <p>Save Rate</p>
-              <p>1,804.7</p>
-            </div>
-            <div class="details">
-              <p>Pool</p>
-              <p>19</p>
-            </div>
-            <div class="details">
-              <p>Weight</p>
-              <p>50.49% / 25.00%</p>
-            </div>
-            <div class="details">
-              <p>Utilization</p>
-              <p>0.00%</p>
-            </div>
-          </div>
-        </div>
-        <div class="composition-wbtc card">
-          <div class="wbtc-heading small-composition-heading">
-            <img src="images/dashboard/WBTC.svg" alt="">
-            <div class="wbtc-headings">
-              <p>WBTC</p>
-              <img src="images/dashboard/expand-arrow.svg" alt="">
-            </div>
-          </div>
-          <div class="eth-content">
-            <div class="details">
-              <p>Save Rate</p>
-              <p>34,342.54</p>
-            </div>
-            <div class="details">
-              <p>Pool</p>
-              <p>0</p>
-            </div>
-            <div class="details">
-              <p>Weight</p>
-              <p>0.00% / 25.00%</p>
-            </div>
-            <div class="details">
-              <p>Utilization</p>
-              <p>0.00%</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="composition-small-wrapper-2 wrapper">
-        <div class="composition-ape card">
-          <div class="ape-heading small-composition-heading">
-            <img src="images/dashboard/APE.svg" alt="">
-            <div class="ape-headings">
-              <p>APE</p>
-              <img src="images/dashboard/expand-arrow.svg" alt="">
-            </div>
-          </div>
-          <div class="ape-content">
-            <div class="details">
-              <p>Save Rate</p>
-              <p>1.34</p>
-            </div>
-            <div class="details">
-              <p>Pool</p>
-              <p>19</p>
-            </div>
-            <div class="details">
-              <p>Weight</p>
-              <p>0.00% / 25.00%</p>
-            </div>
-            <div class="details">
-              <p>Utilization</p>
-              <p>0.00%</p>
-            </div>
-          </div>
-        </div>
-        <div class="composition-usdc card">
-          <div class="usdc-heading small-composition-heading">
-            <img src="images/dashboard/USDC.svg" alt="">
-            <div class="usdc-headings">
-              <p>USDC</p>
-              <img src="images/dashboard/expand-arrow.svg" alt="">
-            </div>
-          </div>
-          <div class="usdc-content">
-            <div class="details">
-              <p>Save Rate</p>
-              <p>1.00</p>
-            </div>
-            <div class="details">
-              <p>Pool</p>
-              <p>14</p>
-            </div>
-            <div class="details">
-              <p>Weight</p>
-              <p>49.50% / 25.00%</p>
-            </div>
-            <div class="details">
-              <p>Utilization</p>
-              <p>0.00%</p>
+              <span class="zlp-tooltip-right">Various Rescue Services</span>
             </div>
           </div>
         </div>
@@ -558,7 +470,6 @@
 
   <footer>
     <div class="footer-logo">
-      <!-- <img src="images/romi-finance-logo.png" alt="Logo"> -->
       <span>Rescue Connect</span>
     </div>
     <div class="social-links">

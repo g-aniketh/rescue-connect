@@ -63,7 +63,7 @@ footer {
   .social-links a {
     margin: 0 0.7rem;
   }
-  .other-links {
+  .other-links, .social-links {
     flex-direction: column;
     row-gap: 0.5rem;
     align-items: center;

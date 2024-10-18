@@ -31,6 +31,7 @@ header {
 
 .header-nav ul {
   display: flex;
+  align-items: center;
 }
 .header-nav ul li,
 .sidebar-nav ul li {
@@ -45,10 +46,22 @@ header {
 .sidebar-nav li a:hover {
   color: rgb(238, 238, 238);
 }
+/* .header-nav ul .emergency-link a {
+  color: rgb(255, 25, 25);
+}
+.header-nav ul .emergency-link a:hover {
+  color: white
+} */
 
 .sidebar-nav {
   display: none;
   opacity: 0;
+}
+.sidebar-nav ul .emergency-link a {
+  color: red;
+}
+.sidebar-nav ul .emergency-link a:hover {
+  color: white;
 }
 
 .header-right-section {
@@ -69,13 +82,9 @@ header {
 .connect-btn-small {
   display: none;
 }
-.network-btn {
-  white-space: nowrap;
-}
-.network-eth-btn {
-  height: 1.2rem;
-  margin-right: 0.2rem;
-}
+.camera-img {
+    height: 18px;
+  }
 .header-logo-content, .sidebar-logo-content {
   color: transparent;
 }
@@ -144,7 +153,7 @@ header {
     height: 1.8rem;
   }
   .header-logo-content span {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .header-right-section button {
     margin-left: 1rem;
@@ -180,7 +189,7 @@ header {
 }
 @media (max-width: 500px) {
   header {
-    padding: 0.7rem;
+    padding: 0.7rem 0.8rem;
   }
   .header-right-section button {
     margin-left: 0.5rem;
@@ -188,20 +197,20 @@ header {
 }
 @media (max-width: 425px) {
   header {
-    padding: 0.7rem 0.3rem 0.7rem 0.6rem;
+    padding: 0.7rem 0.6rem;
   }
   .nav-toggle-btn {
     width: 1rem;
     margin-right: 0.2rem;
+  }
+  .camera-img {
+    display: none;
   }
   .header-right-section button {
     padding: 0.3rem 0.3rem;
   }
 }
 @media (max-width: 350px) {
-  /* header {
-    padding: 0.1rem 0.5rem 0.9rem 1.7rem;
-  } */
   .connect-btn-small img {
     display: none;
   }
