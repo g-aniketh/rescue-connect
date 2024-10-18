@@ -80,10 +80,13 @@
   max-width: 20rem;
 }
 
-.token-section,
+.token-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .call-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .token-section-heading,
 .call-section-heading {
@@ -204,5 +207,8 @@
 @media (max-width: 320px) {
   .main-section .container-1 h2 {
     font-size: 2rem;
+  }
+  .main-section .container-1 p {
+    font-size: 1rem;
   }
 }

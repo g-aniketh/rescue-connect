@@ -95,7 +95,7 @@ main {
 }
 .romi-img,
 .zlp-img {
-  height: 2.7rem;
+  height: 2.2rem;
   margin-right: 0.5rem;
 }
 .zlp-content-image {
@@ -121,6 +121,10 @@ main {
 .zlp-headings,
 .romi-headings {
   padding-right: 0.5rem;
+}
+
+.token-wrapper {
+  margin-bottom: 5rem;
 }
 
 .composition-section {
